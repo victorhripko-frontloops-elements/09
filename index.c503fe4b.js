@@ -1,0 +1,1 @@
+!function(){var t,e,n,o;t=document.querySelector(".aside"),e=t.offsetTop,n=t.dataset.stickyOffset||0,o="\n    position: fixed;\n    top: ".concat(n,"px;\n    margin-top: 0;\n  "),document.addEventListener("scroll",(function(s){pageYOffset>=e-n?t.style=o:t.removeAttribute("style")}))}();
