@@ -1,21 +1,4 @@
-# Template for FrontLoops [Elements] challenge
+# Sticky
 
-Install all dependencies
-```bash
-npm i
-```
-
-For start watching all files use:
-```bash
-npm run start
-```
-
-then open in browser
-```bash
-http://localhost:1234/
-```
-
-For build all files use:
-```bash
-npm run build
-```
+Write a script that works almost like position: sticky in css.
+Whenever you scroll and element is about to get off the screen - it should stick to the top and follow the scroll.
